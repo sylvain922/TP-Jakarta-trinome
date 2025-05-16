@@ -10,17 +10,43 @@
 <body>
 <h1>Résultats de l'équation du second degré</h1>
 
-<p><strong>a</strong> = ${a}</p>
-<p><strong>b</strong> = ${b}</p>
-<p><strong>c</strong> = ${c}</p>
+<table border="1">
+  <thead>
+  <tr>
+    <th>Variable</th>
+    <th>Valeur</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><strong>a</strong></td>
+    <td>${a}</td>
+  </tr>
+  <tr>
+    <td><strong>b</strong></td>
+    <td>${b}</td>
+  </tr>
+  <tr>
+    <td><strong>c</strong></td>
+    <td>${c}</td>
+  </tr>
+  <tr>
+    <td><strong>Racine 1 (x1)</strong></td>
+    <td>${x1}</td>
+  </tr>
+  <tr>
+    <td><strong>Racine 2 (x2)</strong></td>
+    <td>${x2}</td>
+  </tr>
+  <tr>
+    <td><strong>Message</strong></td>
+    <td>${message}</td>
+  </tr>
+  </tbody>
+</table>
 
-<p><strong>Racine 1 (x1)</strong>: ${x1}</p>
-<p><strong>Racine 2 (x2)</strong>: ${x2}</p>
-
-<p><strong>Message:</strong> ${message}</p>
 <main><a href="trinome.jsp">Retour à la page de calcul</a></main>
 </body>
 </html>
-
 
 <%@ include file="fragment/footer.jsp"%>
